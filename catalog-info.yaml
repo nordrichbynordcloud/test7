@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: test7
+  annotations:
+    github.com/project-slug: nordrichbynordcloud/test7
+  description: Repository for test7 created via github-template workflow.
+  tags:
+    - github
+spec:
+  type: repository
+  owner: nordrichbynordcloud
+  lifecycle: experimental
